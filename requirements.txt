@@ -1,4 +1,4 @@
-tensorflow==2.x.x
-git add requirements.txt
-git commit -m "Add tensorflow to requirements"
-git push
+streamlit==1.25.0  # or the latest version of Streamlit you want to use
+tensorflow==2.10.0  # specify the TensorFlow version that works best for your project
+numpy==1.24.0  # or another compatible version of NumPy
+matplotlib==3.7.1  # specify the version of Matplotlib you are using
