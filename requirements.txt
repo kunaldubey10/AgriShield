@@ -1,1 +1,4 @@
 tensorflow==2.x.x
+git add requirements.txt
+git commit -m "Add tensorflow to requirements"
+git push
