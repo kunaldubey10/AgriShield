@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 def model_prediction(image_path):
-    model = tf.keras.models.load_model('D:\deep\AgriShield.keras')
+    model = tf.keras.models.load_model('AgriShield.keras')
     image =tf.keras.preprocessing.image.load_img(image_path,target_size=(128,128))
     input_arr =tf.keras.preprocessing.image.img_to_array(image)
     input_arr=np.array([input_arr]) 
@@ -20,7 +20,7 @@ app_mode=st.sidebar.selectbox("Select Page",["Home","About","Disease Recognition
 #Home page
 if(app_mode=="Home"):
     st.header("AgriShield")
-    image_path="D:\deep\Green Modern Gardening Presentation.png"
+    image_path="Green Modern Gardening Presentation.png"
     st.image(image_path)
     st.markdown("""
     Welcome to the Plant Disease Recognition System! 🌿🔍
