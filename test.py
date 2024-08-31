@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import matplotlib.pyplot as plt
 import os
 print(os.getcwd())
-model = tf.keras.models.load_model('D:\deep\AgriShield.keras')
+model = tf.keras.models.load_model('AgriShield.keras')
 model.summary()
 import cv2
 # Path to the image file
